@@ -1,0 +1,20 @@
+.options {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-bottom: 12px;
+}
+
+.options::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.options .option-item {
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}

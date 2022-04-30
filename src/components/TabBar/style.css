@@ -1,0 +1,27 @@
+.tab-bar {
+  position: sticky;
+  bottom: 16px;
+  margin: 0 16px;
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-bar .tab-bar-item {
+  width: 25%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tab-bar .tab-bar-item .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin: 0 auto 8px
+}

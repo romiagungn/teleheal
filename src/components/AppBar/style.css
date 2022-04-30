@@ -1,0 +1,57 @@
+.app-bar {
+  padding: 16px;
+  border-bottom: 1px solid #000;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.brand-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-wrapper > .brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.brand-wrapper .icon {
+  border-radius: 50%;
+  max-height: 32px;
+  max-width: 32px;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-wrapper .icon img {
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.brand > h4 {
+  margin: 0;
+}
+
+.label-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.label-wrapper .label {
+  padding: 8px;
+  border: 1px solid #000;
+  width: 100%;
+  text-align: center;
+}
+
+.label-wrapper .label:not(:last-child) {
+  border-right: none;
+}

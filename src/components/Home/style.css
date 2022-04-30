@@ -1,0 +1,29 @@
+.content {
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.banner {
+  display: flex;
+  gap: 12px;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-bottom: 24px;
+}
+
+.banner::-webkit-scrollbar {
+  display: none;
+}
+
+.banner .banner-image {
+  height: 160px;
+  max-width: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}

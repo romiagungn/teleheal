@@ -1,0 +1,29 @@
+.list {
+  margin-bottom: 24px;
+}
+
+.list .list-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.list .list-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.list .list-item .list-image {
+  max-height: 80px;
+  max-width: 80px;
+  margin-right: 12px;
+}
+
+.list .list-item .list-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.list .list-item .list-content-info span {
+  display: block;
+}
